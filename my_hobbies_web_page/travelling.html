@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadata for the page -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travelling</title>
+    <style>
+        /* Basic page styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #30a2c2;
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* Heading styling */
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        /* Paragraph styling */
+        p {
+            font-size: 1.2em;
+            color: #555;
+        }
+
+        /* Main content container */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #4bd39f;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Image styling */
+        img {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        /* Navigation menu styling */
+        nav {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #555;
+        }
+
+        /* Hobby links styling */
+        .hobby-links {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .hobby-image {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+            transition: transform 0.3s;
+        }
+
+        .hobby-image:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation menu for navigating between pages -->
+    <nav>
+        <a href="index.html">My Hobbies</a>
+        <a href="soccer.html">Soccer</a>
+        <a href="nature.html">Nature Exploring</a>
+        <a href="swimming.html">Swimming</a>
+        <a href="gardening.html">Gardening</a>
+        <a href="camping.html">Camping</a>
+        <a href="travelling.html">Travelling</a>
+        <a href="cooking.html">Cooking</a>
+        <a href="citation.html">My Citation</a>
+    </nav>
+
+    <hr>
+
+    <!-- Main content container -->
+    <div class="container">
+        <!-- Link to navigate back to the main page -->
+        <a href="index.html">Back to main page</a>
+
+        <!-- Travelling hobby content -->
+        <h1>Travelling</h1>
+        <p>Traveling has always been a cherished experience for me and my family. Over the years, we've explored incredible destinations such as Saudi Arabia, the United States, and the Netherlands. Looking ahead, there are several exciting places I’m eager to visit in the coming years and I have put the images of them down below</p>
+        <p>Click on each location to learn more about it!</p>
+        
+        <!-- Image map for clickable travel destinations -->
+        <img src="grid_travel_destinations.jpg" usemap="#travelMap" alt="Travel Destinations">
+        <map name="travelMap">
+            <!-- Sydney Opera House destination -->
+            <area shape="rect" coords="0,0,500,375" href="https://en.wikipedia.org/wiki/Sydney_Opera_House" alt="Sydney Opera House">
+            <!-- Dubai destination -->
+            <area shape="rect" coords="500,0,1000,375" href="https://en.wikipedia.org/wiki/Dubai" alt="Dubai">
+            <!-- Riyadh destination -->
+            <area shape="rect" coords="0,375,500,750" href="https://en.wikipedia.org/wiki/Riyadh" alt="Riyadh">
+            <!-- Istanbul destination -->
+            <area shape="rect" coords="500,375,1000,750" href="https://en.wikipedia.org/wiki/Istanbul" alt="Istanbul">
+        </map>
+        
+        <!-- Link to navigate back to the top of the page -->
+        <a href="#top">Back to top</a>
+    </div>
+</body>
+</html>

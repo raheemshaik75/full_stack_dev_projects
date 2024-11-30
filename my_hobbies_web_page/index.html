@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadata and page styling -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Hobbies</title>
+    <style>
+        /* Basic page styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #30a2c2;
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* Heading styling */
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        /* Paragraph styling */
+        p {
+            font-size: 1.2em;
+            color: #555;
+        }
+
+        /* Main content container */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #4bd39f;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Image styling */
+        img {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        /* Navigation menu styling */
+        nav {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #555;
+        }
+
+        /* Hobby links styling */
+        .hobby-links {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .hobby-image {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+            transition: transform 0.3s;
+        }
+
+        .hobby-image:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation menu for navigating between pages -->
+    <nav>
+        <a href="index.html">My Hobbies</a>
+        <a href="soccer.html">Soccer</a>
+        <a href="nature.html">Nature Exploring</a>
+        <a href="swimming.html">Swimming</a>
+        <a href="gardening.html">Gardening</a>
+        <a href="camping.html">Camping</a>
+        <a href="travelling.html">Travelling</a>
+        <a href="cooking.html">Cooking</a>
+        <a href="citation.html">My Citation</a>
+    </nav>
+
+    <hr>
+
+    <!-- Main content container -->
+    <div class="container">
+        <!-- Hobby introduction -->
+        <img src="hobbies.jpg" alt="My Hobbies">
+        <h1>My Hobbies</h1>
+        <p>Hey! Let me introduce myself, I'm <b>Abdur Raheem Shaik</b>, a <b>19-year-old</b> from <i>Windsor</i>. I was born in the U.S. and grew up in Canada. I am an individual who loves to be busy doing something rather than just sitting in one place and doing nothing. To keep myself busy and active I have a couple of interesting hobbies. Here is a list of my hobbies. They are listed from <i>number one</i> being <b>my most favorite hobby</b> to the <i>last one</i> <b>being my least favorite</b> of all.</p>
+
+        <!-- Ordered list of hobbies -->
+        <h4>My Hobby List</h4>
+        <ol>
+            <li>Soccer</li>
+            <li>Nature Exploring</li>
+            <li>Swimming</li>
+            <li>Gardening</li>
+            <li>Camping</li>
+            <li>Cooking</li>
+            <li>Travelling</li>
+        </ol>
+
+        <p><i>Feel free to click on any of these images which will take you directly to another page where you can explore that selected hobby of mine. Enjoy, and please do leave your feedback down below!</i></p>
+
+        <!-- Links to individual hobby pages -->
+        <div class="hobby-links">
+            <a href="soccer.html"><img src="soccer.jpeg" alt="Soccer" class="hobby-image"></a>
+            <a href="nature.html"><img src="nature.jpg" alt="Nature Exploring" class="hobby-image"></a>
+            <a href="swimming.html"><img src="swimming.jpg" alt="Swimming" class="hobby-image"></a>
+            <a href="gardening.html"><img src="gardening.jpg" alt="Gardening" class="hobby-image"></a>
+            <a href="camping.html"><img src="camping.jpg" alt="Camping" class="hobby-image"></a>
+            <a href="travelling.html"><img src="travelling.jpg" alt="Travelling" class="hobby-image"></a>
+            <a href="cooking.html"><img src="cooking.jpg" alt="Cooking" class="hobby-image"></a>
+        </div>
+
+        <!-- Feedback form -->
+        <h2>Provide Your Feedback</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="feedback">Feedback:</label><br>
+            <textarea id="feedback" name="feedback" rows="4" cols="50" required></textarea><br><br>
+            <input type="submit" value="Submit">
+        </form>
+
+        <hr>
+
+        <!-- Link to citations page -->
+        <h3><a href="citation.html">Citations</a></h3>
+
+        <!-- Link to navigate back to the top of the page -->
+        <a href="#top">Back to top</a>
+    </div>
+</body>
+</html>
